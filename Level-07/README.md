@@ -1,5 +1,7 @@
-# Bandit Level-07
+# Level 07: Millionth Word
 
-Objective: Find password next to 'millionth'.
-Solution: `grep "millionth" data.txt` 
-Key Commands: grep
+### How I Found It
+`data.txt` was massive. I knew the password was next to 'millionth.' Instead of scrolling forever, I used `grep`. It’s like Ctrl+F for the terminal.
+
+### The Solution
+`grep "millionth" data.txt`

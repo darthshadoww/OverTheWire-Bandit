@@ -1,5 +1,7 @@
-# Bandit Level-03
+# Level 03: Hiding in Plain Sight
 
-Objective: Find hidden file in 'inhere'.
-Solution: `ls -la` then `cat .hidden` 
-Key Commands: ls -a
+### How I Found It
+The `inhere` directory looked empty with a normal `ls`. I remembered from my early Linux labs that hidden files start with a dot. I checked the `man ls` page to find the flag for showing all entries.
+
+### The Solution
+`ls -la` then `cat .hidden`
