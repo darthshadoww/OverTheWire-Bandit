@@ -1,5 +1,5 @@
-# Bandit Level 2
-## Objective
-Find the password for the next level.
-## Solution
-*(Add your commands here)*
+# Bandit Level-02
+
+Objective: Find password in a file with spaces.
+Solution: `cat "spaces in this filename" ` 
+Key Concept: Quoting arguments.

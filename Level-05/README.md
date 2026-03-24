@@ -1,5 +1,5 @@
-# Bandit Level 5
-## Objective
-Find the password for the next level.
-## Solution
-*(Add your commands here)*
+# Bandit Level-05
+
+Objective: Find file with specific size and properties.
+Solution: `find . -type f -size 1033c ! -executable` 
+Key Commands: find

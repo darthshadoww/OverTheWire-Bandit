@@ -1,5 +1,5 @@
-# Bandit Level 3
-## Objective
-Find the password for the next level.
-## Solution
-*(Add your commands here)*
+# Bandit Level-03
+
+Objective: Find hidden file in 'inhere'.
+Solution: `ls -la` then `cat .hidden` 
+Key Commands: ls -a

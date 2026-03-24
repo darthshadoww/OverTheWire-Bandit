@@ -1,5 +1,5 @@
-# Bandit Level 8
-## Objective
-Find the password for the next level.
-## Solution
-*(Add your commands here)*
+# Bandit Level-08
+
+Objective: Find non-repeated line.
+Solution: `sort data.txt | uniq -u` 
+Key Concept: Piping and uniqueness.

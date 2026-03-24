@@ -1,5 +1,5 @@
-# Bandit Level 7
-## Objective
-Find the password for the next level.
-## Solution
-*(Add your commands here)*
+# Bandit Level-07
+
+Objective: Find password next to 'millionth'.
+Solution: `grep "millionth" data.txt` 
+Key Commands: grep
