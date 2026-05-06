@@ -41,13 +41,12 @@ A standard connection (`-sT`) completes the full handshake:
 2.  **SYN-ACK:** "Yes, I am. Let's talk."
 3.  **ACK:** "Great, here is my data."
 <img width="843" height="463" alt="image" src="https://github.com/user-attachments/assets/d27a3f99-ae52-4fd8-b8c6-af35d5425ad7" />
-<img width="843" height="463" alt="image" src="https://github.com/user-attachments/assets/907c2a0f-782b-4e33-9915-fa176052c245" />
-<img width="1128" height="374" alt="image" src="https://github.com/user-attachments/assets/42f052a0-bf6f-4ed6-b488-6286b3b772a7" />
 
 
 
 #### The Stealth (SYN) Scan (`-sS`)
 This is the "Half-Open" scan. It sends a **SYN**, waits for the **SYN-ACK** to confirm the port is open, and then immediately sends a **RST** (Reset) to close the connection before it's fully established. This often avoids being logged by basic application firewalls.
+<img width="843" height="463" alt="image" src="https://github.com/user-attachments/assets/907c2a0f-782b-4e33-9915-fa176052c245" />
 
 ---
 
@@ -56,6 +55,7 @@ When the server gave me the RSA Private Key, I saved it to a file (e.g., `privat
 *   If a private key is "world-readable," an attacker on the same system could steal it.
 *   **The Fix:** `chmod 600 private.key`
 *   This command ensures that **only the owner** can read or write the file. Without this, the command `ssh -i private.key bandit17@localhost` will fail.
+<img width="1128" height="374" alt="image" src="https://github.com/user-attachments/assets/42f052a0-bf6f-4ed6-b488-6286b3b772a7" />
 
 ---
 <img width="1245" height="585" alt="image" src="https://github.com/user-attachments/assets/4060ce8e-e197-4138-821a-60e6d9f93b13" />
