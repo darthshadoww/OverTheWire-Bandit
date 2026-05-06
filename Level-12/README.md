@@ -1,7 +1,7 @@
-# Level 12: The Matryoshka Doll
+# OverTheWire Bandit: Level 12
 
-### How I Found It
-This was the hardest level yet. A file compressed inside a file, inside a hexdump. I had to use `xxd -r` to turn it back into binary, then repeatedly used `file` to identify the compression (Gzip, Bzip2, Tar) and decompress it over and over. It took a lot of patience and renaming files.
+### Walkthrough
+This level was a nightmare of nested compression. I started with a hex dump in data.txt and had to use 'xxd -r' to turn it back into a binary. From there, it was a repetitive loop of checking file types with 'file' and decompressing using gzip, bzip2, and tar. It felt like opening a Russian Matryoshka doll made of data.
 
-### The Solution
-Repeated use of `file`, `xxd`, `gunzip`, `bzip2 -d`, and `tar -xf`.
+### What I Learned
+* Data Serialization and File Signatures. I learned how to reconstruct files from hex dumps and identify compression formats manually.
