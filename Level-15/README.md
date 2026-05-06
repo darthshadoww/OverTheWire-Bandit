@@ -5,6 +5,7 @@ This level is a direct evolution of Level 14. While the previous level used a "c
 
 If you try to use `nc` (Netcat) here, the connection will fail because Netcat doesn't know how to perform the "Handshake" required to encrypt the data. Instead, I used `openssl s_client` to wrap the communication in a secure tunnel.
 
+* <img width="433" height="460" alt="image" src="https://github.com/user-attachments/assets/f38e5cb8-b0f4-4f32-b0c8-83188504d127" />
 
 
 ### Core Concepts: SSL vs. TLS
@@ -38,5 +39,4 @@ openssl s_client -connect [host]:[port]
 *   **Protocol Evolution:** Understanding that TLS is the current standard for securing data in transit.
 *   **OpenSSL Basics:** Using `s_client` to debug and interact with encrypted services.
 
-* <img width="433" height="460" alt="image" src="https://github.com/user-attachments/assets/f38e5cb8-b0f4-4f32-b0c8-83188504d127" />
 
