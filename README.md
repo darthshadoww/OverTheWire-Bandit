@@ -1,4 +1,3 @@
-cat << 'EOF' > README.md
 # OverTheWire: Bandit — Write-ups
 
 This repository contains my solutions and technical walkthroughs for the **OverTheWire: Bandit** wargame. Each level is documented in its own folder to show the specific commands and logic used to find the password.
