@@ -29,8 +29,8 @@ As you noted, the terminal and the shell are not the same thing. Think of it lik
 * **OS:** The Driver's License (The rules and system).
 * **Shell (Bash):** The Driver's Seat (Where the input happens).
 * **Terminal:** The Gas Pedal and Stick (The physical interface you touch).
+<img width="1148" height="687" alt="image" src="https://github.com/user-attachments/assets/59097f07-c075-4430-9680-14c6b0e47591" />
 
-<img width="1148" height="687" alt="image" src="[https://github.com/user-attachments/assets/a3b1cfd8-f11e-4cc8-995a-071ca2116a9d](https://github.com/user-attachments/assets/a3b1cfd8-f11e-4cc8-995a-071ca2116a9d)" />
 
 #### Other Shells:
 * **`sh`**: The original ancestor.
@@ -51,7 +51,7 @@ Bash reads different scripts depending on how you enter the room:
 1.  **Interactive Login Shell (SSH):** Looks for `/etc/profile` then `~/.bash_profile` or `~/.profile`.
 2.  **Interactive Non-Login Shell (New Terminal Tab):** Reads `~/.bashrc`.
 
-<img width="1259" height="751" alt="image" src="[https://github.com/user-attachments/assets/050749a7-6fc8-4b15-9e42-cff815a0a02c](https://github.com/user-attachments/assets/050749a7-6fc8-4b15-9e42-cff815a0a02c)" />
+
 
 ---
 
@@ -63,14 +63,14 @@ While exploring, the colors in your terminal help identify what you're looking a
 * **White:** Standard Files.
 * **Cyan:** **Symbolic Links** (Shortcuts/Pointers to other paths).
 
-<img width="1259" height="751" alt="image" src="[https://github.com/user-attachments/assets/96fcd7db-ea1a-4bb4-9295-fc4a02c431f0](https://github.com/user-attachments/assets/96fcd7db-ea1a-4bb4-9295-fc4a02c431f0)" />
+<img width="1259" height="751" alt="image" src="https://github.com/user-attachments/assets/c2d35c7f-5f80-431c-9a98-065011c6e8c8" />
 
 #### Permissions & The "Boss"
 Inside `/etc/profile`, scripts often check if you are the root user. 
 * **`#`**: Root/Admin (The Boss).
 * **`$`**: Standard User.
+<img width="1259" height="751" alt="image" src="https://github.com/user-attachments/assets/4fbabbd6-f9fe-4be5-a897-11525f273b42" />
 
-<img width="1259" height="751" alt="image" src="[https://github.com/user-attachments/assets/64a9442e-10b4-48c9-aab2-e3258e0f99ba](https://github.com/user-attachments/assets/64a9442e-10b4-48c9-aab2-e3258e0f99ba)" />
 
 ---
 
