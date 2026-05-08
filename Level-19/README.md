@@ -31,7 +31,7 @@ If you use `chmod 777` on a sensitive file (like a password database), any user 
 * **The Scenario:** A regular user needs to change their own password. This requires writing to `/etc/shadow`, a file only `root` can access.
 * **The Tool:** The `passwd` binary.
 * **The Mechanism:** The `passwd` binary has the `setuid` bit set and is owned by `root`. When a user runs it, the program temporarily "becomes" root to update the password file, but only within the strict logic of that specific program.
-<img width="1183" height="531" alt="image" src="https://github.com/user-attachments/assets/2e6db6c3-1232-464d-97f6-afe87dd02e03" />
+
 
 ---
 
@@ -48,7 +48,7 @@ The case of the letter matters:
 
 * **Small `s`:** The execution bit (`x`) is set, and the special bit is also set. **The bit is functional.**
 * **Capital `S`:** The special bit is set, but the underlying execution bit (`x`) is **missing**. **The bit will not work** until you add execution permissions.
-
+<img width="1183" height="531" alt="image" src="https://github.com/user-attachments/assets/2e6db6c3-1232-464d-97f6-afe87dd02e03" />
 ---
 
 ## 4. Practical Application: OverTheWire Bandit Case Study
@@ -107,7 +107,3 @@ chmod 4755 executable_file
 
 ```
 
----
-
-> [!CAUTION]
-> **Security Warning:** `setuid` programs are high-value targets for attackers. A vulnerability in a `setuid` root program can lead to a full system compromise. Avoid setting `setuid` on shell scripts, as they are inherently insecure; use compiled binaries instead.
