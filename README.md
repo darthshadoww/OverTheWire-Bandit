@@ -11,11 +11,6 @@ This repository contains my solutions and technical walkthroughs for the **OverT
 * **Shell**: Bash
 * **Key Tools**: `ssh`, `grep`, `find`, `xxd`, `base64`, `tr`
 
-## 🛠 Solving Approach
-I don't look for spoilers. I focus on:
-* Digging through **man pages** (`man find`, `man xxd`, etc.).
-* Dealing with shell friction (hidden files, special characters, nested compression).
-* Scripting/Piping commands to automate repetitive searches.
 
 ---
 **Melih Alçık**
