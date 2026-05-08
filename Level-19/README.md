@@ -105,5 +105,7 @@ To set these via numbers, add a fourth digit at the beginning of the `chmod` com
 # Sets setuid (4) + rwx for owner (7) + rx for others (55)
 chmod 4755 executable_file
 
-```
 
+
+```
+Next Level Password: 0qXahG8ZjOVMN9Ghs7iOWsCfZyXOUbYO
